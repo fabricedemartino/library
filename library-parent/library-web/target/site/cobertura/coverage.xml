@@ -1,0 +1,1953 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+
+<coverage line-rate="0.0" branch-rate="0.0" lines-covered="0" lines-valid="523" branches-covered="0" branches-valid="122" complexity="2.4714285714285715" version="2.1.1" timestamp="1506520388121">
+	<sources>
+		<source>C:/formation/Workspace/library-parent/library-web/src/main/java</source>
+		<source>--source</source>
+	</sources>
+	<packages>
+		<package name="fr.uni.institute.library.web" line-rate="0.0" branch-rate="0.0" complexity="2.491228070175439">
+			<classes>
+				<class name="fr.uni.institute.library.web.AudioRecordDTO" filename="fr/uni/institute/library/web/AudioRecordDTO.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lfr/uni/institute/library/business/inventory/AudioRecord;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="8" hits="0" branch="false"/>
+								<line number="9" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getDuration" signature="()I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="16" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getLabel" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="12" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getTracks" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="20" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="8" hits="0" branch="false"/>
+						<line number="9" hits="0" branch="false"/>
+						<line number="12" hits="0" branch="false"/>
+						<line number="16" hits="0" branch="false"/>
+						<line number="20" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="fr.uni.institute.library.web.BookDTO" filename="fr/uni/institute/library/web/BookDTO.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lfr/uni/institute/library/business/inventory/Book;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="9" hits="0" branch="false"/>
+								<line number="10" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getIsbn" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="13" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getPages" signature="()I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="17" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="9" hits="0" branch="false"/>
+						<line number="10" hits="0" branch="false"/>
+						<line number="13" hits="0" branch="false"/>
+						<line number="17" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="fr.uni.institute.library.web.ResearchTitlesDTO" filename="fr/uni/institute/library/web/ResearchTitlesDTO.java" line-rate="0.0" branch-rate="0.0" complexity="1.6666666666666667">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="7" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getResearchParameterAuthor" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="17" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getResearchParameterDate" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="21" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getResearchParameterDateAsDate" signature="()Ljava/util/Date;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="25" hits="0" branch="false"/>
+								<line number="26" hits="0" branch="true" condition-coverage="0 % (0/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+										<condition number="1" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="27" hits="0" branch="false"/>
+								<line number="28" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="30" hits="0" branch="false"/>
+								<line number="31" hits="0" branch="false"/>
+								<line number="32" hits="0" branch="false"/>
+								<line number="33" hits="0" branch="false"/>
+								<line number="36" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="37" hits="0" branch="false"/>
+								<line number="40" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getResearchParameterName" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="44" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getTitles" signature="()Ljava/util/ArrayList;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="60" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setResearchParameterAuthor" signature="(Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="48" hits="0" branch="false"/>
+								<line number="49" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setResearchParameterDate" signature="(Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="52" hits="0" branch="false"/>
+								<line number="53" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setResearchParameterName" signature="(Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="56" hits="0" branch="false"/>
+								<line number="57" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setTitles" signature="(Ljava/util/ArrayList;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="64" hits="0" branch="false"/>
+								<line number="65" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="7" hits="0" branch="false"/>
+						<line number="17" hits="0" branch="false"/>
+						<line number="21" hits="0" branch="false"/>
+						<line number="25" hits="0" branch="false"/>
+						<line number="26" hits="0" branch="true" condition-coverage="0 % (0/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+								<condition number="1" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="27" hits="0" branch="false"/>
+						<line number="28" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="30" hits="0" branch="false"/>
+						<line number="31" hits="0" branch="false"/>
+						<line number="32" hits="0" branch="false"/>
+						<line number="33" hits="0" branch="false"/>
+						<line number="36" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="37" hits="0" branch="false"/>
+						<line number="40" hits="0" branch="false"/>
+						<line number="44" hits="0" branch="false"/>
+						<line number="48" hits="0" branch="false"/>
+						<line number="49" hits="0" branch="false"/>
+						<line number="52" hits="0" branch="false"/>
+						<line number="53" hits="0" branch="false"/>
+						<line number="56" hits="0" branch="false"/>
+						<line number="57" hits="0" branch="false"/>
+						<line number="60" hits="0" branch="false"/>
+						<line number="64" hits="0" branch="false"/>
+						<line number="65" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="fr.uni.institute.library.web.ServletAudioRecordSave" filename="fr/uni/institute/library/web/ServletAudioRecordSave.java" line-rate="0.0" branch-rate="1.0" complexity="1.5">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="8" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="completeTitle" signature="(Ljavax/servlet/http/HttpServletRequest;Lfr/uni/institute/library/business/inventory/Title;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="10" hits="0" branch="false"/>
+								<line number="11" hits="0" branch="false"/>
+								<line number="13" hits="0" branch="false"/>
+								<line number="14" hits="0" branch="false"/>
+								<line number="15" hits="0" branch="false"/>
+								<line number="16" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="createNewTitle" signature="()Lfr/uni/institute/library/business/inventory/Title;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="19" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="8" hits="0" branch="false"/>
+						<line number="10" hits="0" branch="false"/>
+						<line number="11" hits="0" branch="false"/>
+						<line number="13" hits="0" branch="false"/>
+						<line number="14" hits="0" branch="false"/>
+						<line number="15" hits="0" branch="false"/>
+						<line number="16" hits="0" branch="false"/>
+						<line number="19" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="fr.uni.institute.library.web.ServletBookSave" filename="fr/uni/institute/library/web/ServletBookSave.java" line-rate="0.0" branch-rate="1.0" complexity="1.5">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="8" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="completeTitle" signature="(Ljavax/servlet/http/HttpServletRequest;Lfr/uni/institute/library/business/inventory/Title;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="10" hits="0" branch="false"/>
+								<line number="11" hits="0" branch="false"/>
+								<line number="13" hits="0" branch="false"/>
+								<line number="14" hits="0" branch="false"/>
+								<line number="15" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="createNewTitle" signature="()Lfr/uni/institute/library/business/inventory/Title;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="18" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="8" hits="0" branch="false"/>
+						<line number="10" hits="0" branch="false"/>
+						<line number="11" hits="0" branch="false"/>
+						<line number="13" hits="0" branch="false"/>
+						<line number="14" hits="0" branch="false"/>
+						<line number="15" hits="0" branch="false"/>
+						<line number="18" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="fr.uni.institute.library.web.ServletCategoryCreateModify" filename="fr/uni/institute/library/web/ServletCategoryCreateModify.java" line-rate="0.0" branch-rate="0.0" complexity="7.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="20" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="18" hits="0" branch="false"/>
+								<line number="21" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="doPost" signature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="26" hits="0" branch="false"/>
+								<line number="27" hits="0" branch="false"/>
+								<line number="28" hits="0" branch="false"/>
+								<line number="29" hits="0" branch="false"/>
+								<line number="30" hits="0" branch="false"/>
+								<line number="31" hits="0" branch="false"/>
+								<line number="32" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="34" hits="0" branch="false"/>
+								<line number="35" hits="0" branch="false"/>
+								<line number="36" hits="0" branch="false"/>
+								<line number="37" hits="0" branch="false"/>
+								<line number="38" hits="0" branch="false"/>
+								<line number="40" hits="0" branch="false"/>
+								<line number="42" hits="0" branch="false"/>
+								<line number="43" hits="0" branch="false"/>
+								<line number="44" hits="0" branch="false"/>
+								<line number="47" hits="0" branch="false"/>
+								<line number="49" hits="0" branch="true" condition-coverage="0 % (0/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+										<condition number="1" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="50" hits="0" branch="false"/>
+								<line number="52" hits="0" branch="false"/>
+								<line number="53" hits="0" branch="false"/>
+								<line number="54" hits="0" branch="false"/>
+								<line number="55" hits="0" branch="false"/>
+								<line number="56" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="18" hits="0" branch="false"/>
+						<line number="20" hits="0" branch="false"/>
+						<line number="21" hits="0" branch="false"/>
+						<line number="26" hits="0" branch="false"/>
+						<line number="27" hits="0" branch="false"/>
+						<line number="28" hits="0" branch="false"/>
+						<line number="29" hits="0" branch="false"/>
+						<line number="30" hits="0" branch="false"/>
+						<line number="31" hits="0" branch="false"/>
+						<line number="32" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="34" hits="0" branch="false"/>
+						<line number="35" hits="0" branch="false"/>
+						<line number="36" hits="0" branch="false"/>
+						<line number="37" hits="0" branch="false"/>
+						<line number="38" hits="0" branch="false"/>
+						<line number="40" hits="0" branch="false"/>
+						<line number="42" hits="0" branch="false"/>
+						<line number="43" hits="0" branch="false"/>
+						<line number="44" hits="0" branch="false"/>
+						<line number="47" hits="0" branch="false"/>
+						<line number="49" hits="0" branch="true" condition-coverage="0 % (0/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+								<condition number="1" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="50" hits="0" branch="false"/>
+						<line number="52" hits="0" branch="false"/>
+						<line number="53" hits="0" branch="false"/>
+						<line number="54" hits="0" branch="false"/>
+						<line number="55" hits="0" branch="false"/>
+						<line number="56" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="fr.uni.institute.library.web.ServletCategoryDelete" filename="fr/uni/institute/library/web/ServletCategoryDelete.java" line-rate="0.0" branch-rate="0.0" complexity="7.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="21" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="20" hits="0" branch="false"/>
+								<line number="22" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="doPost" signature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="27" hits="0" branch="false"/>
+								<line number="28" hits="0" branch="false"/>
+								<line number="29" hits="0" branch="false"/>
+								<line number="30" hits="0" branch="false"/>
+								<line number="31" hits="0" branch="false"/>
+								<line number="32" hits="0" branch="false"/>
+								<line number="34" hits="0" branch="false"/>
+								<line number="35" hits="0" branch="false"/>
+								<line number="36" hits="0" branch="false"/>
+								<line number="37" hits="0" branch="false"/>
+								<line number="39" hits="0" branch="false"/>
+								<line number="40" hits="0" branch="false"/>
+								<line number="42" hits="0" branch="false"/>
+								<line number="43" hits="0" branch="false"/>
+								<line number="44" hits="0" branch="false"/>
+								<line number="46" hits="0" branch="false"/>
+								<line number="47" hits="0" branch="false"/>
+								<line number="48" hits="0" branch="false"/>
+								<line number="49" hits="0" branch="false"/>
+								<line number="52" hits="0" branch="false"/>
+								<line number="53" hits="0" branch="true" condition-coverage="0 % (0/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+										<condition number="1" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="54" hits="0" branch="false"/>
+								<line number="56" hits="0" branch="false"/>
+								<line number="57" hits="0" branch="false"/>
+								<line number="58" hits="0" branch="false"/>
+								<line number="59" hits="0" branch="false"/>
+								<line number="60" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="20" hits="0" branch="false"/>
+						<line number="21" hits="0" branch="false"/>
+						<line number="22" hits="0" branch="false"/>
+						<line number="27" hits="0" branch="false"/>
+						<line number="28" hits="0" branch="false"/>
+						<line number="29" hits="0" branch="false"/>
+						<line number="30" hits="0" branch="false"/>
+						<line number="31" hits="0" branch="false"/>
+						<line number="32" hits="0" branch="false"/>
+						<line number="34" hits="0" branch="false"/>
+						<line number="35" hits="0" branch="false"/>
+						<line number="36" hits="0" branch="false"/>
+						<line number="37" hits="0" branch="false"/>
+						<line number="39" hits="0" branch="false"/>
+						<line number="40" hits="0" branch="false"/>
+						<line number="42" hits="0" branch="false"/>
+						<line number="43" hits="0" branch="false"/>
+						<line number="44" hits="0" branch="false"/>
+						<line number="46" hits="0" branch="false"/>
+						<line number="47" hits="0" branch="false"/>
+						<line number="48" hits="0" branch="false"/>
+						<line number="49" hits="0" branch="false"/>
+						<line number="52" hits="0" branch="false"/>
+						<line number="53" hits="0" branch="true" condition-coverage="0 % (0/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+								<condition number="1" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="54" hits="0" branch="false"/>
+						<line number="56" hits="0" branch="false"/>
+						<line number="57" hits="0" branch="false"/>
+						<line number="58" hits="0" branch="false"/>
+						<line number="59" hits="0" branch="false"/>
+						<line number="60" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="fr.uni.institute.library.web.ServletCategorySave" filename="fr/uni/institute/library/web/ServletCategorySave.java" line-rate="0.0" branch-rate="0.0" complexity="10.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="18" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="17" hits="0" branch="false"/>
+								<line number="19" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="doPost" signature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="24" hits="0" branch="false"/>
+								<line number="25" hits="0" branch="false"/>
+								<line number="26" hits="0" branch="false"/>
+								<line number="28" hits="0" branch="false"/>
+								<line number="29" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="30" hits="0" branch="false"/>
+								<line number="31" hits="0" branch="false"/>
+								<line number="32" hits="0" branch="false"/>
+								<line number="33" hits="0" branch="false"/>
+								<line number="35" hits="0" branch="false"/>
+								<line number="36" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="37" hits="0" branch="false"/>
+								<line number="38" hits="0" branch="false"/>
+								<line number="39" hits="0" branch="false"/>
+								<line number="40" hits="0" branch="true" condition-coverage="0 % (0/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+										<condition number="1" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="41" hits="0" branch="false"/>
+								<line number="42" hits="0" branch="false"/>
+								<line number="43" hits="0" branch="false"/>
+								<line number="44" hits="0" branch="false"/>
+								<line number="45" hits="0" branch="false"/>
+								<line number="47" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="48" hits="0" branch="false"/>
+								<line number="49" hits="0" branch="false"/>
+								<line number="51" hits="0" branch="false"/>
+								<line number="52" hits="0" branch="false"/>
+								<line number="55" hits="0" branch="false"/>
+								<line number="57" hits="0" branch="false"/>
+								<line number="58" hits="0" branch="false"/>
+								<line number="59" hits="0" branch="false"/>
+								<line number="63" hits="0" branch="false"/>
+								<line number="64" hits="0" branch="true" condition-coverage="0 % (0/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+										<condition number="1" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="65" hits="0" branch="false"/>
+								<line number="67" hits="0" branch="false"/>
+								<line number="68" hits="0" branch="false"/>
+								<line number="69" hits="0" branch="false"/>
+								<line number="70" hits="0" branch="false"/>
+								<line number="71" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="17" hits="0" branch="false"/>
+						<line number="18" hits="0" branch="false"/>
+						<line number="19" hits="0" branch="false"/>
+						<line number="24" hits="0" branch="false"/>
+						<line number="25" hits="0" branch="false"/>
+						<line number="26" hits="0" branch="false"/>
+						<line number="28" hits="0" branch="false"/>
+						<line number="29" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="30" hits="0" branch="false"/>
+						<line number="31" hits="0" branch="false"/>
+						<line number="32" hits="0" branch="false"/>
+						<line number="33" hits="0" branch="false"/>
+						<line number="35" hits="0" branch="false"/>
+						<line number="36" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="37" hits="0" branch="false"/>
+						<line number="38" hits="0" branch="false"/>
+						<line number="39" hits="0" branch="false"/>
+						<line number="40" hits="0" branch="true" condition-coverage="0 % (0/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+								<condition number="1" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="41" hits="0" branch="false"/>
+						<line number="42" hits="0" branch="false"/>
+						<line number="43" hits="0" branch="false"/>
+						<line number="44" hits="0" branch="false"/>
+						<line number="45" hits="0" branch="false"/>
+						<line number="47" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="48" hits="0" branch="false"/>
+						<line number="49" hits="0" branch="false"/>
+						<line number="51" hits="0" branch="false"/>
+						<line number="52" hits="0" branch="false"/>
+						<line number="55" hits="0" branch="false"/>
+						<line number="57" hits="0" branch="false"/>
+						<line number="58" hits="0" branch="false"/>
+						<line number="59" hits="0" branch="false"/>
+						<line number="63" hits="0" branch="false"/>
+						<line number="64" hits="0" branch="true" condition-coverage="0 % (0/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+								<condition number="1" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="65" hits="0" branch="false"/>
+						<line number="67" hits="0" branch="false"/>
+						<line number="68" hits="0" branch="false"/>
+						<line number="69" hits="0" branch="false"/>
+						<line number="70" hits="0" branch="false"/>
+						<line number="71" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="fr.uni.institute.library.web.ServletInventory" filename="fr/uni/institute/library/web/ServletInventory.java" line-rate="0.0" branch-rate="0.0" complexity="3.5">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="14" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="doGet" signature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="28" hits="0" branch="false"/>
+								<line number="29" hits="0" branch="false"/>
+								<line number="30" hits="0" branch="false"/>
+								<line number="31" hits="0" branch="false"/>
+								<line number="32" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getConnection" signature="()Ljava/sql/Connection;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="17" hits="0" branch="false"/>
+								<line number="18" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="19" hits="0" branch="false"/>
+								<line number="20" hits="0" branch="false"/>
+								<line number="21" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="22" hits="0" branch="false"/>
+								<line number="23" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="14" hits="0" branch="false"/>
+						<line number="17" hits="0" branch="false"/>
+						<line number="18" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="19" hits="0" branch="false"/>
+						<line number="20" hits="0" branch="false"/>
+						<line number="21" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="22" hits="0" branch="false"/>
+						<line number="23" hits="0" branch="false"/>
+						<line number="28" hits="0" branch="false"/>
+						<line number="29" hits="0" branch="false"/>
+						<line number="30" hits="0" branch="false"/>
+						<line number="31" hits="0" branch="false"/>
+						<line number="32" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="fr.uni.institute.library.web.ServletListCategories" filename="fr/uni/institute/library/web/ServletListCategories.java" line-rate="0.0" branch-rate="0.0" complexity="5.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="19" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="17" hits="0" branch="false"/>
+								<line number="20" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="doPost" signature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="25" hits="0" branch="false"/>
+								<line number="26" hits="0" branch="false"/>
+								<line number="27" hits="0" branch="false"/>
+								<line number="28" hits="0" branch="false"/>
+								<line number="29" hits="0" branch="false"/>
+								<line number="30" hits="0" branch="false"/>
+								<line number="31" hits="0" branch="false"/>
+								<line number="32" hits="0" branch="false"/>
+								<line number="33" hits="0" branch="false"/>
+								<line number="37" hits="0" branch="false"/>
+								<line number="38" hits="0" branch="true" condition-coverage="0 % (0/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+										<condition number="1" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="39" hits="0" branch="false"/>
+								<line number="41" hits="0" branch="false"/>
+								<line number="42" hits="0" branch="false"/>
+								<line number="43" hits="0" branch="false"/>
+								<line number="44" hits="0" branch="false"/>
+								<line number="45" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="17" hits="0" branch="false"/>
+						<line number="19" hits="0" branch="false"/>
+						<line number="20" hits="0" branch="false"/>
+						<line number="25" hits="0" branch="false"/>
+						<line number="26" hits="0" branch="false"/>
+						<line number="27" hits="0" branch="false"/>
+						<line number="28" hits="0" branch="false"/>
+						<line number="29" hits="0" branch="false"/>
+						<line number="30" hits="0" branch="false"/>
+						<line number="31" hits="0" branch="false"/>
+						<line number="32" hits="0" branch="false"/>
+						<line number="33" hits="0" branch="false"/>
+						<line number="37" hits="0" branch="false"/>
+						<line number="38" hits="0" branch="true" condition-coverage="0 % (0/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+								<condition number="1" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="39" hits="0" branch="false"/>
+						<line number="41" hits="0" branch="false"/>
+						<line number="42" hits="0" branch="false"/>
+						<line number="43" hits="0" branch="false"/>
+						<line number="44" hits="0" branch="false"/>
+						<line number="45" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="fr.uni.institute.library.web.ServletSearchTitles" filename="fr/uni/institute/library/web/ServletSearchTitles.java" line-rate="0.0" branch-rate="0.0" complexity="13.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="20" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="18" hits="0" branch="false"/>
+								<line number="21" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="doPost" signature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="25" hits="0" branch="false"/>
+								<line number="28" hits="0" branch="false"/>
+								<line number="30" hits="0" branch="false"/>
+								<line number="32" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="33" hits="0" branch="false"/>
+								<line number="35" hits="0" branch="false"/>
+								<line number="36" hits="0" branch="false"/>
+								<line number="37" hits="0" branch="false"/>
+								<line number="38" hits="0" branch="true" condition-coverage="0 % (0/6)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+										<condition number="1" type="jump" coverage="0 %"/>
+										<condition number="2" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="39" hits="0" branch="false"/>
+								<line number="40" hits="0" branch="false"/>
+								<line number="41" hits="0" branch="false"/>
+								<line number="43" hits="0" branch="false"/>
+								<line number="44" hits="0" branch="false"/>
+								<line number="46" hits="0" branch="false"/>
+								<line number="48" hits="0" branch="false"/>
+								<line number="49" hits="0" branch="false"/>
+								<line number="50" hits="0" branch="false"/>
+								<line number="51" hits="0" branch="false"/>
+								<line number="53" hits="0" branch="true" condition-coverage="0 % (0/6)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+										<condition number="1" type="jump" coverage="0 %"/>
+										<condition number="2" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="54" hits="0" branch="false"/>
+								<line number="55" hits="0" branch="false"/>
+								<line number="56" hits="0" branch="false"/>
+								<line number="58" hits="0" branch="false"/>
+								<line number="61" hits="0" branch="false"/>
+								<line number="62" hits="0" branch="false"/>
+								<line number="64" hits="0" branch="false"/>
+								<line number="65" hits="0" branch="false"/>
+								<line number="68" hits="0" branch="false"/>
+								<line number="70" hits="0" branch="true" condition-coverage="0 % (0/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+										<condition number="1" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="71" hits="0" branch="false"/>
+								<line number="73" hits="0" branch="false"/>
+								<line number="74" hits="0" branch="false"/>
+								<line number="75" hits="0" branch="false"/>
+								<line number="76" hits="0" branch="false"/>
+								<line number="77" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="18" hits="0" branch="false"/>
+						<line number="20" hits="0" branch="false"/>
+						<line number="21" hits="0" branch="false"/>
+						<line number="25" hits="0" branch="false"/>
+						<line number="28" hits="0" branch="false"/>
+						<line number="30" hits="0" branch="false"/>
+						<line number="32" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="33" hits="0" branch="false"/>
+						<line number="35" hits="0" branch="false"/>
+						<line number="36" hits="0" branch="false"/>
+						<line number="37" hits="0" branch="false"/>
+						<line number="38" hits="0" branch="true" condition-coverage="0 % (0/6)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+								<condition number="1" type="jump" coverage="0 %"/>
+								<condition number="2" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="39" hits="0" branch="false"/>
+						<line number="40" hits="0" branch="false"/>
+						<line number="41" hits="0" branch="false"/>
+						<line number="43" hits="0" branch="false"/>
+						<line number="44" hits="0" branch="false"/>
+						<line number="46" hits="0" branch="false"/>
+						<line number="48" hits="0" branch="false"/>
+						<line number="49" hits="0" branch="false"/>
+						<line number="50" hits="0" branch="false"/>
+						<line number="51" hits="0" branch="false"/>
+						<line number="53" hits="0" branch="true" condition-coverage="0 % (0/6)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+								<condition number="1" type="jump" coverage="0 %"/>
+								<condition number="2" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="54" hits="0" branch="false"/>
+						<line number="55" hits="0" branch="false"/>
+						<line number="56" hits="0" branch="false"/>
+						<line number="58" hits="0" branch="false"/>
+						<line number="61" hits="0" branch="false"/>
+						<line number="62" hits="0" branch="false"/>
+						<line number="64" hits="0" branch="false"/>
+						<line number="65" hits="0" branch="false"/>
+						<line number="68" hits="0" branch="false"/>
+						<line number="70" hits="0" branch="true" condition-coverage="0 % (0/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+								<condition number="1" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="71" hits="0" branch="false"/>
+						<line number="73" hits="0" branch="false"/>
+						<line number="74" hits="0" branch="false"/>
+						<line number="75" hits="0" branch="false"/>
+						<line number="76" hits="0" branch="false"/>
+						<line number="77" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="fr.uni.institute.library.web.ServletTitleCreate" filename="fr/uni/institute/library/web/ServletTitleCreate.java" line-rate="0.0" branch-rate="0.0" complexity="7.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="18" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="17" hits="0" branch="false"/>
+								<line number="19" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="doPost" signature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="24" hits="0" branch="false"/>
+								<line number="25" hits="0" branch="false"/>
+								<line number="26" hits="0" branch="false"/>
+								<line number="27" hits="0" branch="false"/>
+								<line number="28" hits="0" branch="false"/>
+								<line number="29" hits="0" branch="false"/>
+								<line number="30" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="31" hits="0" branch="false"/>
+								<line number="33" hits="0" branch="false"/>
+								<line number="35" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="36" hits="0" branch="false"/>
+								<line number="38" hits="0" branch="false"/>
+								<line number="40" hits="0" branch="false"/>
+								<line number="41" hits="0" branch="false"/>
+								<line number="45" hits="0" branch="false"/>
+								<line number="46" hits="0" branch="true" condition-coverage="0 % (0/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+										<condition number="1" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="47" hits="0" branch="false"/>
+								<line number="49" hits="0" branch="false"/>
+								<line number="50" hits="0" branch="false"/>
+								<line number="51" hits="0" branch="false"/>
+								<line number="52" hits="0" branch="false"/>
+								<line number="53" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="17" hits="0" branch="false"/>
+						<line number="18" hits="0" branch="false"/>
+						<line number="19" hits="0" branch="false"/>
+						<line number="24" hits="0" branch="false"/>
+						<line number="25" hits="0" branch="false"/>
+						<line number="26" hits="0" branch="false"/>
+						<line number="27" hits="0" branch="false"/>
+						<line number="28" hits="0" branch="false"/>
+						<line number="29" hits="0" branch="false"/>
+						<line number="30" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="31" hits="0" branch="false"/>
+						<line number="33" hits="0" branch="false"/>
+						<line number="35" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="36" hits="0" branch="false"/>
+						<line number="38" hits="0" branch="false"/>
+						<line number="40" hits="0" branch="false"/>
+						<line number="41" hits="0" branch="false"/>
+						<line number="45" hits="0" branch="false"/>
+						<line number="46" hits="0" branch="true" condition-coverage="0 % (0/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+								<condition number="1" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="47" hits="0" branch="false"/>
+						<line number="49" hits="0" branch="false"/>
+						<line number="50" hits="0" branch="false"/>
+						<line number="51" hits="0" branch="false"/>
+						<line number="52" hits="0" branch="false"/>
+						<line number="53" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="fr.uni.institute.library.web.ServletTitleDelete" filename="fr/uni/institute/library/web/ServletTitleDelete.java" line-rate="0.0" branch-rate="0.0" complexity="6.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="23" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="22" hits="0" branch="false"/>
+								<line number="24" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="doPost" signature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="29" hits="0" branch="false"/>
+								<line number="30" hits="0" branch="false"/>
+								<line number="31" hits="0" branch="false"/>
+								<line number="32" hits="0" branch="false"/>
+								<line number="33" hits="0" branch="false"/>
+								<line number="34" hits="0" branch="false"/>
+								<line number="35" hits="0" branch="false"/>
+								<line number="36" hits="0" branch="false"/>
+								<line number="37" hits="0" branch="false"/>
+								<line number="39" hits="0" branch="false"/>
+								<line number="40" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="41" hits="0" branch="false"/>
+								<line number="42" hits="0" branch="false"/>
+								<line number="44" hits="0" branch="false"/>
+								<line number="45" hits="0" branch="false"/>
+								<line number="46" hits="0" branch="false"/>
+								<line number="47" hits="0" branch="false"/>
+								<line number="51" hits="0" branch="false"/>
+								<line number="52" hits="0" branch="true" condition-coverage="0 % (0/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+										<condition number="1" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="53" hits="0" branch="false"/>
+								<line number="55" hits="0" branch="false"/>
+								<line number="56" hits="0" branch="false"/>
+								<line number="57" hits="0" branch="false"/>
+								<line number="58" hits="0" branch="false"/>
+								<line number="59" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="22" hits="0" branch="false"/>
+						<line number="23" hits="0" branch="false"/>
+						<line number="24" hits="0" branch="false"/>
+						<line number="29" hits="0" branch="false"/>
+						<line number="30" hits="0" branch="false"/>
+						<line number="31" hits="0" branch="false"/>
+						<line number="32" hits="0" branch="false"/>
+						<line number="33" hits="0" branch="false"/>
+						<line number="34" hits="0" branch="false"/>
+						<line number="35" hits="0" branch="false"/>
+						<line number="36" hits="0" branch="false"/>
+						<line number="37" hits="0" branch="false"/>
+						<line number="39" hits="0" branch="false"/>
+						<line number="40" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="41" hits="0" branch="false"/>
+						<line number="42" hits="0" branch="false"/>
+						<line number="44" hits="0" branch="false"/>
+						<line number="45" hits="0" branch="false"/>
+						<line number="46" hits="0" branch="false"/>
+						<line number="47" hits="0" branch="false"/>
+						<line number="51" hits="0" branch="false"/>
+						<line number="52" hits="0" branch="true" condition-coverage="0 % (0/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+								<condition number="1" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="53" hits="0" branch="false"/>
+						<line number="55" hits="0" branch="false"/>
+						<line number="56" hits="0" branch="false"/>
+						<line number="57" hits="0" branch="false"/>
+						<line number="58" hits="0" branch="false"/>
+						<line number="59" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="fr.uni.institute.library.web.ServletTitleDetail" filename="fr/uni/institute/library/web/ServletTitleDetail.java" line-rate="0.0" branch-rate="0.0" complexity="2.3333333333333335">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="23" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="24" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="access$000" signature="()Lorg/apache/log4j/Logger;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="22" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="doPost" signature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="28" hits="0" branch="false"/>
+								<line number="29" hits="0" branch="false"/>
+								<line number="30" hits="0" branch="false"/>
+								<line number="31" hits="0" branch="false"/>
+								<line number="33" hits="0" branch="false"/>
+								<line number="34" hits="0" branch="false"/>
+								<line number="35" hits="0" branch="false"/>
+								<line number="36" hits="0" branch="false"/>
+								<line number="37" hits="0" branch="false"/>
+								<line number="39" hits="0" branch="false"/>
+								<line number="41" hits="0" branch="false"/>
+								<line number="43" hits="0" branch="false"/>
+								<line number="54" hits="0" branch="false"/>
+								<line number="55" hits="0" branch="false"/>
+								<line number="56" hits="0" branch="false"/>
+								<line number="59" hits="0" branch="false"/>
+								<line number="60" hits="0" branch="true" condition-coverage="0 % (0/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+										<condition number="1" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="61" hits="0" branch="false"/>
+								<line number="63" hits="0" branch="false"/>
+								<line number="64" hits="0" branch="false"/>
+								<line number="65" hits="0" branch="false"/>
+								<line number="66" hits="0" branch="false"/>
+								<line number="67" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="22" hits="0" branch="false"/>
+						<line number="23" hits="0" branch="false"/>
+						<line number="24" hits="0" branch="false"/>
+						<line number="28" hits="0" branch="false"/>
+						<line number="29" hits="0" branch="false"/>
+						<line number="30" hits="0" branch="false"/>
+						<line number="31" hits="0" branch="false"/>
+						<line number="33" hits="0" branch="false"/>
+						<line number="34" hits="0" branch="false"/>
+						<line number="35" hits="0" branch="false"/>
+						<line number="36" hits="0" branch="false"/>
+						<line number="37" hits="0" branch="false"/>
+						<line number="39" hits="0" branch="false"/>
+						<line number="41" hits="0" branch="false"/>
+						<line number="43" hits="0" branch="false"/>
+						<line number="54" hits="0" branch="false"/>
+						<line number="55" hits="0" branch="false"/>
+						<line number="56" hits="0" branch="false"/>
+						<line number="59" hits="0" branch="false"/>
+						<line number="60" hits="0" branch="true" condition-coverage="0 % (0/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+								<condition number="1" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="61" hits="0" branch="false"/>
+						<line number="63" hits="0" branch="false"/>
+						<line number="64" hits="0" branch="false"/>
+						<line number="65" hits="0" branch="false"/>
+						<line number="66" hits="0" branch="false"/>
+						<line number="67" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="fr.uni.institute.library.web.ServletTitleDetail$1" filename="fr/uni/institute/library/web/ServletTitleDetail.java" line-rate="0.0" branch-rate="1.0" complexity="2.3333333333333335">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lfr/uni/institute/library/web/ServletTitleDetail;Ljavax/servlet/ServletContext;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="43" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getJSPFileNameForAudioRecord" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="49" hits="0" branch="false"/>
+								<line number="50" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getJSPFileNameForBook" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="45" hits="0" branch="false"/>
+								<line number="46" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="43" hits="0" branch="false"/>
+						<line number="45" hits="0" branch="false"/>
+						<line number="46" hits="0" branch="false"/>
+						<line number="49" hits="0" branch="false"/>
+						<line number="50" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="fr.uni.institute.library.web.ServletTitleModify" filename="fr/uni/institute/library/web/ServletTitleModify.java" line-rate="0.0" branch-rate="0.0" complexity="2.3333333333333335">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="24" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="23" hits="0" branch="false"/>
+								<line number="25" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="doPost" signature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="29" hits="0" branch="false"/>
+								<line number="30" hits="0" branch="false"/>
+								<line number="31" hits="0" branch="false"/>
+								<line number="32" hits="0" branch="false"/>
+								<line number="33" hits="0" branch="false"/>
+								<line number="34" hits="0" branch="false"/>
+								<line number="35" hits="0" branch="false"/>
+								<line number="36" hits="0" branch="false"/>
+								<line number="37" hits="0" branch="false"/>
+								<line number="39" hits="0" branch="false"/>
+								<line number="40" hits="0" branch="false"/>
+								<line number="41" hits="0" branch="false"/>
+								<line number="42" hits="0" branch="false"/>
+								<line number="43" hits="0" branch="false"/>
+								<line number="44" hits="0" branch="false"/>
+								<line number="52" hits="0" branch="false"/>
+								<line number="53" hits="0" branch="false"/>
+								<line number="54" hits="0" branch="false"/>
+								<line number="58" hits="0" branch="false"/>
+								<line number="59" hits="0" branch="true" condition-coverage="0 % (0/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+										<condition number="1" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="60" hits="0" branch="false"/>
+								<line number="62" hits="0" branch="false"/>
+								<line number="63" hits="0" branch="false"/>
+								<line number="64" hits="0" branch="false"/>
+								<line number="65" hits="0" branch="false"/>
+								<line number="66" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="23" hits="0" branch="false"/>
+						<line number="24" hits="0" branch="false"/>
+						<line number="25" hits="0" branch="false"/>
+						<line number="29" hits="0" branch="false"/>
+						<line number="30" hits="0" branch="false"/>
+						<line number="31" hits="0" branch="false"/>
+						<line number="32" hits="0" branch="false"/>
+						<line number="33" hits="0" branch="false"/>
+						<line number="34" hits="0" branch="false"/>
+						<line number="35" hits="0" branch="false"/>
+						<line number="36" hits="0" branch="false"/>
+						<line number="37" hits="0" branch="false"/>
+						<line number="39" hits="0" branch="false"/>
+						<line number="40" hits="0" branch="false"/>
+						<line number="41" hits="0" branch="false"/>
+						<line number="42" hits="0" branch="false"/>
+						<line number="43" hits="0" branch="false"/>
+						<line number="44" hits="0" branch="false"/>
+						<line number="52" hits="0" branch="false"/>
+						<line number="53" hits="0" branch="false"/>
+						<line number="54" hits="0" branch="false"/>
+						<line number="58" hits="0" branch="false"/>
+						<line number="59" hits="0" branch="true" condition-coverage="0 % (0/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+								<condition number="1" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="60" hits="0" branch="false"/>
+						<line number="62" hits="0" branch="false"/>
+						<line number="63" hits="0" branch="false"/>
+						<line number="64" hits="0" branch="false"/>
+						<line number="65" hits="0" branch="false"/>
+						<line number="66" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="fr.uni.institute.library.web.ServletTitleModify$1" filename="fr/uni/institute/library/web/ServletTitleModify.java" line-rate="0.0" branch-rate="1.0" complexity="2.3333333333333335">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lfr/uni/institute/library/web/ServletTitleModify;Ljavax/servlet/ServletContext;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="44" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getJSPFileNameForAudioRecord" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="49" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getJSPFileNameForBook" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="46" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="44" hits="0" branch="false"/>
+						<line number="46" hits="0" branch="false"/>
+						<line number="49" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="fr.uni.institute.library.web.ServletTitleSave" filename="fr/uni/institute/library/web/ServletTitleSave.java" line-rate="0.0" branch-rate="0.0" complexity="5.0">
+					<methods>
+						<method name="&lt;clinit&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="31" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="25" hits="0" branch="false"/>
+								<line number="32" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="doPost" signature="(Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="36" hits="0" branch="false"/>
+								<line number="37" hits="0" branch="false"/>
+								<line number="38" hits="0" branch="false"/>
+								<line number="39" hits="0" branch="false"/>
+								<line number="40" hits="0" branch="false"/>
+								<line number="41" hits="0" branch="false"/>
+								<line number="42" hits="0" branch="false"/>
+								<line number="43" hits="0" branch="false"/>
+								<line number="45" hits="0" branch="false"/>
+								<line number="46" hits="0" branch="false"/>
+								<line number="47" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="48" hits="0" branch="false"/>
+								<line number="49" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="50" hits="0" branch="false"/>
+								<line number="52" hits="0" branch="false"/>
+								<line number="54" hits="0" branch="false"/>
+								<line number="55" hits="0" branch="false"/>
+								<line number="56" hits="0" branch="false"/>
+								<line number="57" hits="0" branch="false"/>
+								<line number="58" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="59" hits="0" branch="false"/>
+								<line number="60" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="62" hits="0" branch="false"/>
+								<line number="63" hits="0" branch="false"/>
+								<line number="64" hits="0" branch="false"/>
+								<line number="65" hits="0" branch="false"/>
+								<line number="66" hits="0" branch="false"/>
+								<line number="67" hits="0" branch="false"/>
+								<line number="68" hits="0" branch="false"/>
+								<line number="72" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="73" hits="0" branch="false"/>
+								<line number="75" hits="0" branch="false"/>
+								<line number="76" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="77" hits="0" branch="false"/>
+								<line number="78" hits="0" branch="false"/>
+								<line number="79" hits="0" branch="false"/>
+								<line number="81" hits="0" branch="false"/>
+								<line number="82" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="83" hits="0" branch="false"/>
+								<line number="84" hits="0" branch="false"/>
+								<line number="86" hits="0" branch="false"/>
+								<line number="87" hits="0" branch="false"/>
+								<line number="89" hits="0" branch="false"/>
+								<line number="90" hits="0" branch="false"/>
+								<line number="91" hits="0" branch="false"/>
+								<line number="92" hits="0" branch="false"/>
+								<line number="96" hits="0" branch="false"/>
+								<line number="97" hits="0" branch="true" condition-coverage="0 % (0/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+										<condition number="1" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="98" hits="0" branch="false"/>
+								<line number="100" hits="0" branch="false"/>
+								<line number="101" hits="0" branch="false"/>
+								<line number="102" hits="0" branch="false"/>
+								<line number="103" hits="0" branch="false"/>
+								<line number="104" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="25" hits="0" branch="false"/>
+						<line number="31" hits="0" branch="false"/>
+						<line number="32" hits="0" branch="false"/>
+						<line number="36" hits="0" branch="false"/>
+						<line number="37" hits="0" branch="false"/>
+						<line number="38" hits="0" branch="false"/>
+						<line number="39" hits="0" branch="false"/>
+						<line number="40" hits="0" branch="false"/>
+						<line number="41" hits="0" branch="false"/>
+						<line number="42" hits="0" branch="false"/>
+						<line number="43" hits="0" branch="false"/>
+						<line number="45" hits="0" branch="false"/>
+						<line number="46" hits="0" branch="false"/>
+						<line number="47" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="48" hits="0" branch="false"/>
+						<line number="49" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="50" hits="0" branch="false"/>
+						<line number="52" hits="0" branch="false"/>
+						<line number="54" hits="0" branch="false"/>
+						<line number="55" hits="0" branch="false"/>
+						<line number="56" hits="0" branch="false"/>
+						<line number="57" hits="0" branch="false"/>
+						<line number="58" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="59" hits="0" branch="false"/>
+						<line number="60" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="62" hits="0" branch="false"/>
+						<line number="63" hits="0" branch="false"/>
+						<line number="64" hits="0" branch="false"/>
+						<line number="65" hits="0" branch="false"/>
+						<line number="66" hits="0" branch="false"/>
+						<line number="67" hits="0" branch="false"/>
+						<line number="68" hits="0" branch="false"/>
+						<line number="72" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="73" hits="0" branch="false"/>
+						<line number="75" hits="0" branch="false"/>
+						<line number="76" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="77" hits="0" branch="false"/>
+						<line number="78" hits="0" branch="false"/>
+						<line number="79" hits="0" branch="false"/>
+						<line number="81" hits="0" branch="false"/>
+						<line number="82" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="83" hits="0" branch="false"/>
+						<line number="84" hits="0" branch="false"/>
+						<line number="86" hits="0" branch="false"/>
+						<line number="87" hits="0" branch="false"/>
+						<line number="89" hits="0" branch="false"/>
+						<line number="90" hits="0" branch="false"/>
+						<line number="91" hits="0" branch="false"/>
+						<line number="92" hits="0" branch="false"/>
+						<line number="96" hits="0" branch="false"/>
+						<line number="97" hits="0" branch="true" condition-coverage="0 % (0/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+								<condition number="1" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="98" hits="0" branch="false"/>
+						<line number="100" hits="0" branch="false"/>
+						<line number="101" hits="0" branch="false"/>
+						<line number="102" hits="0" branch="false"/>
+						<line number="103" hits="0" branch="false"/>
+						<line number="104" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="fr.uni.institute.library.web.TitleDTO" filename="fr/uni/institute/library/web/TitleDTO.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Lfr/uni/institute/library/business/inventory/Title;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="12" hits="0" branch="false"/>
+								<line number="13" hits="0" branch="false"/>
+								<line number="14" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getAuthor" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="20" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getCategories" signature="()Ljava/util/Collection;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="27" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getDate" signature="()Ljava/util/Date;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="34" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getId" signature="()I" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="42" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getName" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="49" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getTitle" signature="()Lfr/uni/institute/library/business/inventory/Title;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="53" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="hasCategory" signature="(Lfr/uni/institute/library/business/inventory/Category;)Z" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="62" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="12" hits="0" branch="false"/>
+						<line number="13" hits="0" branch="false"/>
+						<line number="14" hits="0" branch="false"/>
+						<line number="20" hits="0" branch="false"/>
+						<line number="27" hits="0" branch="false"/>
+						<line number="34" hits="0" branch="false"/>
+						<line number="42" hits="0" branch="false"/>
+						<line number="49" hits="0" branch="false"/>
+						<line number="53" hits="0" branch="false"/>
+						<line number="62" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="fr.uni.institute.library.web.TitleDTOCreator" filename="fr/uni/institute/library/web/TitleDTOCreator.java" line-rate="0.0" branch-rate="1.0" complexity="1.0">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljavax/servlet/http/HttpServletRequest;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="13" hits="0" branch="false"/>
+								<line number="14" hits="0" branch="false"/>
+								<line number="15" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="visitAudioRecord" signature="(Lfr/uni/institute/library/business/inventory/AudioRecord;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="18" hits="0" branch="false"/>
+								<line number="19" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="visitBook" signature="(Lfr/uni/institute/library/business/inventory/Book;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="22" hits="0" branch="false"/>
+								<line number="23" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="13" hits="0" branch="false"/>
+						<line number="14" hits="0" branch="false"/>
+						<line number="15" hits="0" branch="false"/>
+						<line number="18" hits="0" branch="false"/>
+						<line number="19" hits="0" branch="false"/>
+						<line number="22" hits="0" branch="false"/>
+						<line number="23" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="fr.uni.institute.library.web.TitleModifyPrepareViewDispatcher" filename="fr/uni/institute/library/web/TitleModifyPrepareViewDispatcher.java" line-rate="0.0" branch-rate="1.0" complexity="1.6666666666666667">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljavax/servlet/ServletContext;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="21" hits="0" branch="false"/>
+								<line number="22" hits="0" branch="false"/>
+								<line number="23" hits="0" branch="false"/>
+								<line number="24" hits="0" branch="false"/>
+								<line number="25" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="visitAudioRecord" signature="(Lfr/uni/institute/library/business/inventory/AudioRecord;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="29" hits="0" branch="false"/>
+								<line number="30" hits="0" branch="false"/>
+								<line number="31" hits="0" branch="false"/>
+								<line number="32" hits="0" branch="false"/>
+								<line number="33" hits="0" branch="false"/>
+								<line number="34" hits="0" branch="false"/>
+								<line number="35" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="visitBook" signature="(Lfr/uni/institute/library/business/inventory/Book;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="39" hits="0" branch="false"/>
+								<line number="40" hits="0" branch="false"/>
+								<line number="41" hits="0" branch="false"/>
+								<line number="42" hits="0" branch="false"/>
+								<line number="43" hits="0" branch="false"/>
+								<line number="44" hits="0" branch="false"/>
+								<line number="45" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="21" hits="0" branch="false"/>
+						<line number="22" hits="0" branch="false"/>
+						<line number="23" hits="0" branch="false"/>
+						<line number="24" hits="0" branch="false"/>
+						<line number="25" hits="0" branch="false"/>
+						<line number="29" hits="0" branch="false"/>
+						<line number="30" hits="0" branch="false"/>
+						<line number="31" hits="0" branch="false"/>
+						<line number="32" hits="0" branch="false"/>
+						<line number="33" hits="0" branch="false"/>
+						<line number="34" hits="0" branch="false"/>
+						<line number="35" hits="0" branch="false"/>
+						<line number="39" hits="0" branch="false"/>
+						<line number="40" hits="0" branch="false"/>
+						<line number="41" hits="0" branch="false"/>
+						<line number="42" hits="0" branch="false"/>
+						<line number="43" hits="0" branch="false"/>
+						<line number="44" hits="0" branch="false"/>
+						<line number="45" hits="0" branch="false"/>
+					</lines>
+				</class>
+				<class name="fr.uni.institute.library.web.TitleViewDispatcher" filename="fr/uni/institute/library/web/TitleViewDispatcher.java" line-rate="0.0" branch-rate="1.0" complexity="1.4">
+					<methods>
+						<method name="&lt;init&gt;" signature="(Ljavax/servlet/ServletContext;Ljavax/servlet/http/HttpServletRequest;Ljavax/servlet/http/HttpServletResponse;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="21" hits="0" branch="false"/>
+								<line number="22" hits="0" branch="false"/>
+								<line number="23" hits="0" branch="false"/>
+								<line number="24" hits="0" branch="false"/>
+								<line number="25" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="visitAudioRecord" signature="(Lfr/uni/institute/library/business/inventory/AudioRecord;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="29" hits="0" branch="false"/>
+								<line number="30" hits="0" branch="false"/>
+								<line number="31" hits="0" branch="false"/>
+								<line number="32" hits="0" branch="false"/>
+								<line number="33" hits="0" branch="false"/>
+								<line number="34" hits="0" branch="false"/>
+								<line number="35" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="visitBook" signature="(Lfr/uni/institute/library/business/inventory/Book;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="39" hits="0" branch="false"/>
+								<line number="40" hits="0" branch="false"/>
+								<line number="41" hits="0" branch="false"/>
+								<line number="42" hits="0" branch="false"/>
+								<line number="43" hits="0" branch="false"/>
+								<line number="44" hits="0" branch="false"/>
+								<line number="45" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="21" hits="0" branch="false"/>
+						<line number="22" hits="0" branch="false"/>
+						<line number="23" hits="0" branch="false"/>
+						<line number="24" hits="0" branch="false"/>
+						<line number="25" hits="0" branch="false"/>
+						<line number="29" hits="0" branch="false"/>
+						<line number="30" hits="0" branch="false"/>
+						<line number="31" hits="0" branch="false"/>
+						<line number="32" hits="0" branch="false"/>
+						<line number="33" hits="0" branch="false"/>
+						<line number="34" hits="0" branch="false"/>
+						<line number="35" hits="0" branch="false"/>
+						<line number="39" hits="0" branch="false"/>
+						<line number="40" hits="0" branch="false"/>
+						<line number="41" hits="0" branch="false"/>
+						<line number="42" hits="0" branch="false"/>
+						<line number="43" hits="0" branch="false"/>
+						<line number="44" hits="0" branch="false"/>
+						<line number="45" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="fr.uni.institute.library.web.tag" line-rate="0.0" branch-rate="0.0" complexity="2.3846153846153846">
+			<classes>
+				<class name="fr.uni.institute.library.web.tag.Select" filename="fr/uni/institute/library/web/tag/Select.java" line-rate="0.0" branch-rate="0.0" complexity="2.3846153846153846">
+					<methods>
+						<method name="&lt;init&gt;" signature="()V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="14" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="doStartTag" signature="()I" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="67" hits="0" branch="false"/>
+								<line number="68" hits="0" branch="true" condition-coverage="0 % (0/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+										<condition number="1" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="69" hits="0" branch="false"/>
+								<line number="70" hits="0" branch="false"/>
+								<line number="71" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="72" hits="0" branch="false"/>
+								<line number="73" hits="0" branch="false"/>
+								<line number="74" hits="0" branch="false"/>
+								<line number="75" hits="0" branch="false"/>
+								<line number="76" hits="0" branch="false"/>
+								<line number="77" hits="0" branch="false"/>
+								<line number="78" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="79" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="80" hits="0" branch="false"/>
+								<line number="82" hits="0" branch="false"/>
+								<line number="83" hits="0" branch="false"/>
+								<line number="84" hits="0" branch="false"/>
+								<line number="85" hits="0" branch="false"/>
+								<line number="87" hits="0" branch="false"/>
+								<line number="88" hits="0" branch="false"/>
+								<line number="89" hits="0" branch="false"/>
+								<line number="90" hits="0" branch="false"/>
+								<line number="92" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getItemDisplay" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="96" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getItemDisplay" signature="(Ljava/lang/Object;)Ljava/lang/String;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="46" hits="0" branch="false"/>
+								<line number="47" hits="0" branch="false"/>
+								<line number="48" hits="0" branch="true" condition-coverage="0 % (0/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+										<condition number="1" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="50" hits="0" branch="false"/>
+								<line number="51" hits="0" branch="false"/>
+								<line number="52" hits="0" branch="false"/>
+								<line number="53" hits="0" branch="false"/>
+								<line number="55" hits="0" branch="false"/>
+								<line number="56" hits="0" branch="false"/>
+								<line number="57" hits="0" branch="false"/>
+								<line number="58" hits="0" branch="false"/>
+								<line number="60" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="61" hits="0" branch="false"/>
+								<line number="63" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getItemValue" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="104" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getItemValue" signature="(Ljava/lang/Object;)Ljava/lang/String;" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="26" hits="0" branch="false"/>
+								<line number="27" hits="0" branch="false"/>
+								<line number="28" hits="0" branch="true" condition-coverage="0 % (0/4)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+										<condition number="1" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="30" hits="0" branch="false"/>
+								<line number="31" hits="0" branch="false"/>
+								<line number="32" hits="0" branch="false"/>
+								<line number="33" hits="0" branch="false"/>
+								<line number="35" hits="0" branch="false"/>
+								<line number="36" hits="0" branch="false"/>
+								<line number="37" hits="0" branch="false"/>
+								<line number="39" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="40" hits="0" branch="false"/>
+								<line number="42" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getListSelectedValues" signature="()Ljava/lang/Object;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="120" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getListValues" signature="()Ljava/lang/Object;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="138" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="getName" signature="()Ljava/lang/String;" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="112" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setItemDisplay" signature="(Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="100" hits="0" branch="false"/>
+								<line number="101" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setItemValue" signature="(Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="108" hits="0" branch="false"/>
+								<line number="109" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setListSelectedValues" signature="(Ljava/lang/Object;)V" line-rate="0.0" branch-rate="0.0" complexity="0">
+							<lines>
+								<line number="124" hits="0" branch="true" condition-coverage="0 % (0/2)">
+									<conditions>
+										<condition number="0" type="jump" coverage="0 %"/>
+									</conditions>
+								</line>
+								<line number="126" hits="0" branch="false"/>
+								<line number="127" hits="0" branch="false"/>
+								<line number="128" hits="0" branch="false"/>
+								<line number="129" hits="0" branch="false"/>
+								<line number="130" hits="0" branch="false"/>
+								<line number="131" hits="0" branch="false"/>
+								<line number="132" hits="0" branch="false"/>
+								<line number="135" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setListValues" signature="(Ljava/lang/Object;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="143" hits="0" branch="false"/>
+								<line number="144" hits="0" branch="false"/>
+								<line number="145" hits="0" branch="false"/>
+								<line number="146" hits="0" branch="false"/>
+								<line number="147" hits="0" branch="false"/>
+								<line number="148" hits="0" branch="false"/>
+								<line number="149" hits="0" branch="false"/>
+							</lines>
+						</method>
+						<method name="setName" signature="(Ljava/lang/String;)V" line-rate="0.0" branch-rate="1.0" complexity="0">
+							<lines>
+								<line number="116" hits="0" branch="false"/>
+								<line number="117" hits="0" branch="false"/>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="14" hits="0" branch="false"/>
+						<line number="26" hits="0" branch="false"/>
+						<line number="27" hits="0" branch="false"/>
+						<line number="28" hits="0" branch="true" condition-coverage="0 % (0/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+								<condition number="1" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="30" hits="0" branch="false"/>
+						<line number="31" hits="0" branch="false"/>
+						<line number="32" hits="0" branch="false"/>
+						<line number="33" hits="0" branch="false"/>
+						<line number="35" hits="0" branch="false"/>
+						<line number="36" hits="0" branch="false"/>
+						<line number="37" hits="0" branch="false"/>
+						<line number="39" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="40" hits="0" branch="false"/>
+						<line number="42" hits="0" branch="false"/>
+						<line number="46" hits="0" branch="false"/>
+						<line number="47" hits="0" branch="false"/>
+						<line number="48" hits="0" branch="true" condition-coverage="0 % (0/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+								<condition number="1" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="50" hits="0" branch="false"/>
+						<line number="51" hits="0" branch="false"/>
+						<line number="52" hits="0" branch="false"/>
+						<line number="53" hits="0" branch="false"/>
+						<line number="55" hits="0" branch="false"/>
+						<line number="56" hits="0" branch="false"/>
+						<line number="57" hits="0" branch="false"/>
+						<line number="58" hits="0" branch="false"/>
+						<line number="60" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="61" hits="0" branch="false"/>
+						<line number="63" hits="0" branch="false"/>
+						<line number="67" hits="0" branch="false"/>
+						<line number="68" hits="0" branch="true" condition-coverage="0 % (0/4)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+								<condition number="1" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="69" hits="0" branch="false"/>
+						<line number="70" hits="0" branch="false"/>
+						<line number="71" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="72" hits="0" branch="false"/>
+						<line number="73" hits="0" branch="false"/>
+						<line number="74" hits="0" branch="false"/>
+						<line number="75" hits="0" branch="false"/>
+						<line number="76" hits="0" branch="false"/>
+						<line number="77" hits="0" branch="false"/>
+						<line number="78" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="79" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="80" hits="0" branch="false"/>
+						<line number="82" hits="0" branch="false"/>
+						<line number="83" hits="0" branch="false"/>
+						<line number="84" hits="0" branch="false"/>
+						<line number="85" hits="0" branch="false"/>
+						<line number="87" hits="0" branch="false"/>
+						<line number="88" hits="0" branch="false"/>
+						<line number="89" hits="0" branch="false"/>
+						<line number="90" hits="0" branch="false"/>
+						<line number="92" hits="0" branch="false"/>
+						<line number="96" hits="0" branch="false"/>
+						<line number="100" hits="0" branch="false"/>
+						<line number="101" hits="0" branch="false"/>
+						<line number="104" hits="0" branch="false"/>
+						<line number="108" hits="0" branch="false"/>
+						<line number="109" hits="0" branch="false"/>
+						<line number="112" hits="0" branch="false"/>
+						<line number="116" hits="0" branch="false"/>
+						<line number="117" hits="0" branch="false"/>
+						<line number="120" hits="0" branch="false"/>
+						<line number="124" hits="0" branch="true" condition-coverage="0 % (0/2)">
+							<conditions>
+								<condition number="0" type="jump" coverage="0 %"/>
+							</conditions>
+						</line>
+						<line number="126" hits="0" branch="false"/>
+						<line number="127" hits="0" branch="false"/>
+						<line number="128" hits="0" branch="false"/>
+						<line number="129" hits="0" branch="false"/>
+						<line number="130" hits="0" branch="false"/>
+						<line number="131" hits="0" branch="false"/>
+						<line number="132" hits="0" branch="false"/>
+						<line number="135" hits="0" branch="false"/>
+						<line number="138" hits="0" branch="false"/>
+						<line number="143" hits="0" branch="false"/>
+						<line number="144" hits="0" branch="false"/>
+						<line number="145" hits="0" branch="false"/>
+						<line number="146" hits="0" branch="false"/>
+						<line number="147" hits="0" branch="false"/>
+						<line number="148" hits="0" branch="false"/>
+						<line number="149" hits="0" branch="false"/>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+</coverage>
